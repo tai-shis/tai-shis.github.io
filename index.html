@@ -2,8 +2,118 @@
 <html>
   <head>
     <title>Under construction...</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100vh;
+        margin: 0;
+        padding-top: 10%; /* Position the dropdown about 1/10 of the way down the screen */
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        overflow: hidden; /* Prevent the website from scrolling */
+      }
+    
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+        min-width: 600px; /* Make the menu much larger */
+      }
+      
+      .dropdown::after {
+        content: '▼';
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 600px; /* Make the menu much larger */
+        z-index: 1;
+        border-radius: 5px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        background-color: #ffffff;
+        padding: 12px 16px;
+        left: 0; /* Ensure the options drop down directly below the menu */
+        max-height: 200px; /* Limit the height of the dropdown content */
+        overflow-y: auto; /* Add a scrollbar if necessary */
+      }
+      
+      .dropdown-content div {
+        display: block;
+        border-bottom: 1px solid #dddddd; /* Add a thin gray line between options */
+        margin-bottom: 10px; /* Space the options out further */
+        padding-bottom: 10px; /* Space the options out further */
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
   </head>
   <body>
     <h1>Come back later</h1>
+    <div class="dropdown">
+  Cloud Instance Options
+  <div class="dropdown-content">
+    <div>Immediate - Europe - AWS - m5.24xlarge (96 vCPU, 384 GB RAM, 900 GB SSD) - Debian</div>
+    <div>10 Hours - Asia-Pacific - Google Cloud - e2-small (2 vCPU, 2 GB RAM, 50 GB HDD) - Oracle Linux</div>
+    <div>5 Days - Los Angeles - Azure - B1S (1 vCPU, 1 GB RAM, 4 GB SSD) - CentOS</div>
+    <div>Immediate - Europe - AWS - m5.24xlarge (96 vCPU, 384 GB RAM, 900 GB SSD) - Windows 10</div>
+    <div>24 Hours - US-West - Google Cloud - n2d-standard-224 (224 vCPU, 896 GB RAM, 3,000 GB HDD) - Windows 7</div>
+    <div>2 Hours - US-East - AWS - t3.medium (2 vCPU, 4 GB RAM, 20 GB SSD) - Ubuntu</div>
+    <div>13 Days - Frankfurt - AWS - m5.xlarge (4 vCPU, 16 GB RAM, 150 GB SSD) - Windows 10</div>
+    <div>4 Days - New York - AWS - t2.micro (1 vCPU, 1 GB RAM, 8 GB SSD) - Ubuntu</div>
+    <div>18 Days - Sao Paulo - Google Cloud - e2-medium (2 vCPU, 4 GB RAM, 100 GB HDD) - NetBSD</div>
+    <div>3 Hours - US-West - Azure - A2 v2 (2 vCPU, 4 GB RAM, 20 GB SSD) - CentOS</div>
+    <div>24 Hours - Asia-Pacific - Google Cloud - f1-micro (0.2 vCPU, 0.6 GB RAM, 30 GB HDD) - Fedora</div>
+    <div>12 Hours - US-East - Azure - D4s v3 (4 vCPU, 16 GB RAM, 100 GB SSD) - Windows 8.1</div>
+    <div>1 Hour - US-East - Azure - M128s (128 vCPU, 2,048 GB RAM, 4,000 GB SSD) - Windows Server 2019</div>
+    <div>11 Hours - Europe - AWS - m5.xlarge (4 vCPU, 16 GB RAM, 150 GB SSD) - Windows 10</div>
+    <div>6 Days - Tokyo - Google Cloud - f1-micro (0.2 vCPU, 0.6 GB RAM, 30 GB HDD) - Fedora</div>
+    <div>16 Days - Toronto - AWS - t3a.medium (2 vCPU, 4 GB RAM, 40 GB SSD) - FreeBSD</div>
+    <div>9 Hours - US-West - Azure - B2s (2 vCPU, 4 GB RAM, 8 GB SSD) - SUSE Linux Enterprise Server</div>
+    <div>8 Hours - US-East - AWS - t3a.small (2 vCPU, 2 GB RAM, 20 GB SSD) - Red Hat Enterprise Linux</div>
+    <div>15 Days - Mumbai - Google Cloud - n1-standard-4 (4 vCPU, 15 GB RAM, 100 GB HDD) - Windows 7</div>
+    <div>9 Days - San Francisco - Google Cloud - n2d-standard-224 (224 vCPU, 896 GB RAM, 3,000 GB HDD) - Windows Server 2016</div>
+    <div>Immediate - US-East - AWS - t2.micro (1 vCPU, 1 GB RAM, 8 GB SSD) - Ubuntu</div>
+    <div>5 Hours - Europe - AWS - m5.large (2 vCPU, 8 GB RAM, 75 GB SSD) - Debian</div>
+    <div>4 Hours - Asia-Pacific - Google Cloud - e2-medium (2 vCPU, 4 GB RAM, 50 GB HDD) - Fedora</div>
+    <div>1 Hour - US-East - Azure - M128s (128 vCPU, 2,048 GB RAM, 4,000 GB SSD) - Windows 8.1</div>
+    <div>12 Days - Singapore - Google Cloud - e2-medium (2 vCPU, 4 GB RAM, 50 GB HDD) - Oracle Linux</div>
+    <div>8 Days - Chicago - Azure - M128s (128 vCPU, 2,048 GB RAM, 4,000 GB SSD) - Windows Server 2019</div>
+    <div>1 Hour - US-West - Azure - B1S (1 vCPU, 1 GB RAM, 4 GB SSD) - CentOS</div>
+    <div>14 Hours - US-East - AWS - t3a.medium (2 vCPU, 4 GB RAM, 40 GB SSD) - FreeBSD</div>
+    <div>Immediate - US-East - AWS - t2.micro (1 vCPU, 1 GB RAM, 8 GB SSD) - FreeBSD</div>
+    <div>6 Hours - US-East - Azure - D2s v3 (2 vCPU, 8 GB RAM, 50 GB SSD) - Windows Server 2019</div>
+    <div>13 Hours - US-West - Google Cloud - n1-standard-4 (4 vCPU, 15 GB RAM, 100 GB HDD) - Windows 7</div>
+    <div>1 Hour - US-West - Azure - B1S (1 vCPU, 1 GB RAM, 4 GB SSD) - SUSE Linux Enterprise Server</div>
+    <div>10 Days - Sydney - AWS - t3a.small (2 vCPU, 2 GB RAM, 20 GB SSD) - Red Hat Enterprise Linux</div>
+    <div>24 Hours - Asia-Pacific - Google Cloud - f1-micro (0.2 vCPU, 0.6 GB RAM, 30 GB HDD) - Oracle Linux</div>
+    <div>24 Hours - Asia-Pacific - Google Cloud - f1-micro (0.2 vCPU, 0.6 GB RAM, 30 GB HDD) - NetBSD</div>
+    <div>17 Days - Paris - Azure - B2ms (2 vCPU, 8 GB RAM, 16 GB SSD) - OpenBSD</div>
+    <div>Immediate - US-East - AWS - t2.micro (1 vCPU, 1 GB RAM, 8 GB SSD) - Red Hat Enterprise Linux</div>
+    <div>24 Hours - US-West - Google Cloud - n2d-standard-224 (224 vCPU, 896 GB RAM, 3,000 GB HDD) - Windows Server 2016</div>
+    <div>15 Hours - US-West - Azure - B2ms (2 vCPU, 8 GB RAM, 16 GB SSD) - OpenBSD</div>
+    <div>7 Days - London - AWS - m5.24xlarge (96 vCPU, 384 GB RAM, 900 GB SSD) - Debian</div>
+    <div>7 Hours - US-West - Google Cloud - n1-standard-2 (2 vCPU, 7.5 GB RAM, 50 GB HDD) - Windows Server 2016</div>
+    <div>14 Days - Dallas - Azure - D4s v3 (4 vCPU, 16 GB RAM, 100 GB SSD) - Windows 8.1</div>
+    <div>1 Hour - US-West - Azure - B1S (1 vCPU, 1 GB RAM, 4 GB SSD) - OpenBSD</div>
+    <div>11 Days - Seattle - Azure - B2s (2 vCPU, 4 GB RAM, 8 GB SSD) - SUSE Linux Enterprise Server</div>
+    <div>16 Hours - Asia-Pacific - Google Cloud - e2-medium (2 vCPU, 4 GB RAM, 100 GB HDD) - NetBSD</div>
+
+
+
+  </div>
+</div>
   </body>
 </html>
