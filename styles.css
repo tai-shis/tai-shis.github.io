@@ -43,3 +43,41 @@
         text-align: left;
     }
 }
+
+/* footer */
+.footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 16px;;
+    border: 0px;
+    margin: 0px;
+    border-top: 1.5px solid darkslategrey;
+    opacity: 70%
+}
+
+.copyright {
+    float: left;
+}
+
+.last_commit {
+    float: right;
+}
+.last_commit_alt {
+    display: none;
+}
+
+@media screen and (max-width: 568px) {
+    .last_commit {
+        display: none;
+    }
+
+    .last_commit_alt {
+        display: block;
+        float: right;
+    }
+}

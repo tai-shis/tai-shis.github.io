@@ -7,3 +7,4 @@ TODO:
   - buttons to lead to profiles (github, socials, etc)
   - web icon thing on the tab
   - separate pages for hobbies n' stuff
+  - somehow automate last commit date & link
