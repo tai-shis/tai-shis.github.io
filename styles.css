@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 20px;
+    font-family: "Courier New", monospace;
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.name {
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.edu {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    opacity: 70%;
+    display: inline;
+    float: left;
+}
+
+.edu_break {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .edu {
+        display: none;
+    }
+
+    .edu_break{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        opacity: 70%;
+        display: inline;
+        float: left;
+        text-align: left;
+    }
+}
