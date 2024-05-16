@@ -1,11 +1,22 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding-top: 20px;
     font-family: "Courier New", monospace;
     text-align: center;
     padding-left: 6%;
     padding-right: 6%;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+} 
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .name {
@@ -13,6 +24,7 @@
     text-align: left;
     margin: 0;
     padding: 0;
+    padding-top: 60px;
 }
 
 .edu {
@@ -28,7 +40,7 @@
     display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
     .edu {
         display: none;
     }
@@ -52,7 +64,7 @@
     bottom: 0;
     right: 0;
     padding: 0px;
-    padding-top: 0px;
+    padding-top: 16px;
     padding-bottom: 16px;;
     border: 0px;
     margin: 0px;
@@ -71,7 +83,17 @@
     display: none;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 870px) {
+    .on {
+        display: none;
+    }
+
+    .off {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .last_commit {
         display: none;
     }
