@@ -69,7 +69,8 @@
     border: 0px;
     margin: 0px;
     border-top: 1.5px solid darkslategrey;
-    opacity: 70%
+    opacity: 70%;
+    font-size: 15px;
 }
 
 .copyright {
