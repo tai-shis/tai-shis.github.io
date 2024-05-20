@@ -31,7 +31,7 @@
     font-size: 15px;
     margin: 0;
     padding: 0;
-    opacity: 70%;
+    color: rgba(255, 255, 255, 0.65);
     display: inline;
     float: left;
 }
@@ -49,7 +49,7 @@
         font-size: 15px;
         margin: 0;
         padding: 0;
-        opacity: 70%;
+        color: rgba(255, 255, 255, 0.65);
         display: inline;
         float: left;
         text-align: left;
@@ -69,7 +69,7 @@
     border: 0px;
     margin: 0px;
     border-top: 1.5px solid darkslategrey;
-    opacity: 70%;
+    color: rgba(255, 255, 255, 0.65);
     font-size: 15px;
 }
 
