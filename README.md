@@ -4,7 +4,8 @@ TODO:
   - ~~dark mode~~ (and light mode switch)
   - cool animations maybe
   - the white lizard
-  - buttons to lead to profiles (github, socials, etc)
+  - ~~buttons to lead to profiles (github, socials, etc)~~
   - ~~web icon thing on the tab~~
   - separate pages for hobbies n' stuff
   - somehow automate last commit date & link
+  - better alert system so it doesnt look sketchy
