@@ -23,90 +23,90 @@ body {
     clear: both;
 }
 
-.main {
-    padding-top: 60px;
+.header {
+    margin: 0;
     padding-left: 6%;
     padding-right: 6%;
-    z-index: -1;
-}
-
-.name {
-    font-size: 30px;
+    padding-bottom: 10px;
     text-align: left;
-    margin: 0;
+    text-decoration: none;
+    cursor: default;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.dropbtn {
     padding: 0;
-    padding-top: 15px;
-    padding-left: 6%;
-    padding-right: 6%;
-
-}
-
-.edu {
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-    color: rgba(255, 255, 255, 0.65);
-    display: inline;
-    float: left;
-    padding-left: 6%;
-    padding-right: 6%;
-}
-
-.edu_break {
-    display: none;
-}
-
-@media screen and (max-width: 720px) {
-    .edu {
-        display: none;
-    }
-
-    .edu_break{
-        font-size: 15px;
-        margin: 0;
-        padding: 0;
-        color: rgba(255, 255, 255, 0.65);
-        display: inline;
-        float: left;
-        text-align: left;
-        padding-left: 6%;
-        padding-right: 6%;
-    }
-}
-
-.links {
-    margin: 0;
+    border: none;
+    background: none;
     padding-left: 6%;
     padding-right: 6%;
     font-size: 35px;
-    padding-bottom: 10px;
-    text-align: center;
-    text-decoration: none;
-    cursor: default;
+    cursor: pointer;
 }
 
-.email, .discord, .github, .instagram {
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222222;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.home {
     color: white;
     padding-left: 6%;
     padding-right: 6%;
     cursor: pointer;
+    font-size: 35px;
 }
 
-.blog {
+.main {
     padding-left: 6%;
     padding-right: 6%;
-    border-top: 1.5px solid darkslategray;
-    border-bottom: 1.5px solid darkslategray;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 18px;
-    text-decoration-color: none;
 }
 
-.bloglink {
-    text-decoration-color: white;
-    color: white;
-    opacity: 70%;
+.main span.title{
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.main span.date {
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: bold;
+    display: inline-block;
+}
+
+.main span.body {
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 16px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.85);
 }
 
 /* footer */
