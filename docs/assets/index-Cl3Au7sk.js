@@ -10727,7 +10727,7 @@ function up() {
 						G.jsx("a", {
 							href: "https://github.com/tai-shis/tai-shis.github.io",
 							className: "hover:underline",
-							children: "2025-07-03T00:21:05-06:00".split("T")[0],
+							children: "2025-07-03T00:26:04-06:00".split("T")[0],
 						}),
 					],
 				}),
