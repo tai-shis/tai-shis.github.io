@@ -1,8 +1,12 @@
+import Icon from '../components/Icon.jsx';
+import Me from '../components/Me.jsx';
+
 function Home() {
   return (
-    <>
-      <h1>Bruh</h1>
-    </>
+    <div className="flex flex-row relative">
+      <Icon />
+      <Me />
+    </div>
   );
 }
 
