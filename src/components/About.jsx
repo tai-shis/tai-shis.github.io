@@ -10,7 +10,7 @@ function About() {
         Software Development. Apart from that, I play several instruments, build
         custom keyboards, take photos, and play games.
       </div>
-      <div className="text-default-subtext font-global text-l pb-4">
+      <div className="text-default-subtext font-global text-l pb-">
         Imagine some filler text here to make it look like its filled out :3c
       </div>
     </div>
