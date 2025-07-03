@@ -1,12 +1,17 @@
-# tai-shis.github.io
-TODO: 
-  - implement actual website containing wip/completed projects <- sort of?
-  - ~~dark mode~~ (and light mode switch)
-  - cool animations maybe
-  - the white lizard
-  - ~~buttons to lead to profiles (github, socials, etc)~~
-  - ~~web icon thing on the tab~~
-  - separate pages for hobbies n' stuff <- probably this next
-  - somehow automate last commit date & link
-  - better alert system so it doesnt look sketchy
-  - previous blog buttons
+# Add READme here
+---
+## dev setup
+
+The project is (trying) to use a [Nix](https://nixos.org) development environment setup
+
+### Prereq to use
+- [Install Nix](https://nixos.org/download.html)
+- Enable flakes by adding `experiemental-features = nix-command flakes` to `~/.config/nix/nix.conf`
+
+### Using nix dev
+
+```bash
+nix develop     # Start the dev shell
+yarn install    # Install Dependencies
+yarn dev        # Start the dev server
+```

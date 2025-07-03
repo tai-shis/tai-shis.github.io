@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-background: #0B7a75;
+    --color-border: #19535f;
+    --color-element-bg: #FDF4E0;
+    --color-default-text: #231123; 
+    --color-default-subtext: #502F4C;
+
+    --radius-global: 1.5rem;
+    
+    --spacing-element: 1rem;
+    --spacing-side-border-full: 20rem;
+    --spacing-top-border-full: 5rem;
+    --spacing-side-border-md: 2rem;
+    --spacing-top-border-md: 2rem;
+
+    --font-global: 'Courier New', monospace;
+
+    --shadow-test: -6px 6px 0 0 #19535f;
+}
