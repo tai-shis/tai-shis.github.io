@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import Footer from './components/Footer.jsx';
 import Home from './pages/Home.jsx';
 import NoPage from './pages/NoPage.jsx';
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
