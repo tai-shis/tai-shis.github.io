@@ -8,7 +8,7 @@ function App() {
   return (
     <div
       className="bg-background min-h-screen transpl-side-border-md pr-side-border-md pt-top-border-md 
-						lg:pl-side-border-full lg:pr-side-border-full lg:pt-top-border-full "
+                            lg:pl-side-border-full lg:pr-side-border-full lg:pt-top-border-full "
     >
       <BrowserRouter>
         <Routes>

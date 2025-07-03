@@ -7,7 +7,13 @@ function Footer() {
           © 2025 - Tai Shishiba
         </span>
         <span className="text-default-subtext font-global text-l float-right inline-block">
-          Last Commit: {__COMMIT_DATE__.split('T')[0]}
+          Last Commit:{' '}
+          <a
+            href="https://github.com/tai-shis/tai-shis.github.io"
+            className="hover:underline"
+          >
+            {__COMMIT_DATE__.split('T')[0]}
+          </a>
         </span>
       </footer>
     </div>

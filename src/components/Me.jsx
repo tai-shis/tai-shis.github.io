@@ -1,7 +1,7 @@
 function Me() {
   return (
-    <div className="bg-element-bg border-2 border-border rounded-global p-6 m-element basis-full shadow-test">
-      <div className="h-96 w-full">
+    <div className="bg-element-bg border-2 border-border rounded-global shadow-test h-min p-6 m-element">
+      <div className="flex h-min">
         <div>
           <p className="text-default-text font-global text-3xl font-bold">
             Tai Shishiba
@@ -16,6 +16,7 @@ function Me() {
             Mount Royal University
           </span>
         </div>
+        <hr className="bg-border h:1" />
       </div>
     </div>
   );
