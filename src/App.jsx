@@ -1,9 +1,13 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import Home from "./pages/Home.jsx";
+import Projects from "./pages/Projects.jsx";
 import NoPage from "./pages/NoPage.jsx";
+
+const Router =
+	import.meta.env.MODE === "development" ? BrowserRouter : HashRouter;
 
 function App() {
 	return (
@@ -15,7 +19,8 @@ function App() {
 			<Router>
 				<Routes>
 					<Route path='/' element={<Home />} />
-					<Route path='/projects' element={<NoPage />} />
+					<Route path='/projects' element={<Projects />} />
+					<Route path='/*' element={<NoPage />} />
 				</Routes>
 			</Router>
 			<Footer />
