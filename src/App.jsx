@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Footer from "./components/Footer.jsx";
 import Home from "./pages/Home.jsx";
@@ -10,12 +10,12 @@ function App() {
 			className='bg-background min-h-screen transpl-side-border-md pr-side-border-md pt-top-border-md 
                             lg:pl-side-border-full lg:pr-side-border-full lg:pt-top-border-full '
 		>
-			<BrowserRouter>
+			<Router>
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='*' element={<NoPage />} />
 				</Routes>
-			</BrowserRouter>
+			</Router>
 			<Footer />
 		</div>
 	);
