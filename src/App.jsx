@@ -12,15 +12,15 @@ function App() {
 			className='bg-background min-h-screen transpl-side-border-md pr-side-border-md pt-top-border-md 
                             lg:pl-side-border-full lg:pr-side-border-full lg:pt-top-border-full '
 		>
-			<Header />
-			<Router basename='/'>
+			<Router basename={import.meta.env.BASE_URL}>
+				<Header />
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/projects' element={<Projects />} />
 					<Route path='/*' element={<NoPage />} />
 				</Routes>
+				<Footer />
 			</Router>
-			<Footer />
 		</div>
 	);
 }
