@@ -10730,7 +10730,7 @@ function ip() {
 						$.jsx("a", {
 							href: "https://github.com/tai-shis/tai-shis.github.io",
 							className: "hover:underline",
-							children: "2025-07-04T13:33:42-06:00".split("T")[0],
+							children: "2025-07-04T13:39:40-06:00".split("T")[0],
 						}),
 					],
 				}),
