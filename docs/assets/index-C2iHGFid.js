@@ -10730,7 +10730,7 @@ function ip() {
 						$.jsx("a", {
 							href: "https://github.com/tai-shis/tai-shis.github.io",
 							className: "hover:underline",
-							children: "2025-07-04T15:09:03-06:00".split("T")[0],
+							children: "2025-07-04T15:22:43-06:00".split("T")[0],
 						}),
 					],
 				}),
@@ -10841,7 +10841,6 @@ function mp() {
 		children: [
 			$.jsx(up, {}),
 			$.jsx(op, {
-				basename: "/tai-shis.com",
 				children: $.jsxs(np, {
 					children: [
 						$.jsx(Ol, { path: "/", element: $.jsx(dp, {}) }),

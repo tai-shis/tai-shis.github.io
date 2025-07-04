@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://www.tai-shis.com/",
+  "homepage": "https://www.tai-shis.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
