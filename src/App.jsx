@@ -13,7 +13,7 @@ function App() {
                             lg:pl-side-border-full lg:pr-side-border-full lg:pt-top-border-full '
 		>
 			<Header />
-			<Router>
+			<Router basename='/'>
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/projects' element={<Projects />} />
