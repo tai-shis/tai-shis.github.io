@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
@@ -13,7 +13,7 @@ function App() {
                             lg:pl-side-border-full lg:pr-side-border-full lg:pt-top-border-full '
 		>
 			<Header />
-			<Router>
+			<Router basename='/tai-shis.com'>
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/projects' element={<Projects />} />
