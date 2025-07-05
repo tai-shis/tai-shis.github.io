@@ -11,10 +11,16 @@ function Header() {
 					<Link to='/'>Homepage</Link>
 				</div>
 				<div
-					className='border-2 border-element-bg rounded-global bg-element-bg transition duration-150 ease-in-out p-4 w-min ms-2
+					className='border-2 border-element-bg rounded-global bg-element-bg transition duration-150 ease-in-out p-4 w-32 ms-2
                                hover:shadow-test hover:border-background hover:translate-x-1.5 hover:-translate-y-1.5'
 				>
 					<Link to='/projects'>Projects</Link>
+				</div>
+				<div
+					className='border-2 border-element-bg rounded-global bg-element-bg transition duration-150 ease-in-out p-4 w-32 ms-2
+                               hover:shadow-test hover:border-background hover:translate-x-1.5 hover:-translate-y-1.5'
+				>
+					<Link to='/stuff'>Stuff</Link>
 				</div>
 			</div>
 		</nav>
