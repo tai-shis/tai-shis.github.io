@@ -11037,7 +11037,7 @@ function jp() {
 						W.jsx("a", {
 							href: "https://github.com/tai-shis/tai-shis.github.io",
 							className: "hover:underline",
-							children: "2025-07-04T19:56:12-06:00".split("T")[0],
+							children: "2025-07-04T20:00:31-06:00".split("T")[0],
 						}),
 					],
 				}),
