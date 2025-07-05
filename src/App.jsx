@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import Home from "./pages/Home.jsx";
 import Projects from "./pages/Projects.jsx";
+import Stuff from "./pages/Stuff.jsx";
 import NoPage from "./pages/NoPage.jsx";
 
 function App() {
