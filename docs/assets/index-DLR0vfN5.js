@@ -11032,7 +11032,7 @@ function jp() {
 						Q.jsx("a", {
 							href: "https://github.com/tai-shis/tai-shis.github.io",
 							className: "hover:underline",
-							children: "2025-07-04T16:17:22-06:00".split("T")[0],
+							children: "2025-07-04T19:31:07-06:00".split("T")[0],
 						}),
 					],
 				}),
