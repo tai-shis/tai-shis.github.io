@@ -10996,7 +10996,7 @@ function Tp() {
 				"flex flex-row p-2 font-global font-bold text-default-subtext text-xl",
 			children: [
 				Q.jsx("div", {
-					className: `border-2 border-element-bg rounded-global bg-element-bg transition duration-150 ease-in-out p-4 w-min ms-2 
+					className: `border-2 border-element-bg rounded-global bg-element-bg transition duration-150 ease-in-out p-4 w-32 ms-2 
                                hover:shadow-test hover:border-background hover:translate-x-1.5 hover:-translate-y-1.5`,
 					children: Q.jsx(lc, { to: "/", children: "Homepage" }),
 				}),
@@ -11032,7 +11032,7 @@ function jp() {
 						Q.jsx("a", {
 							href: "https://github.com/tai-shis/tai-shis.github.io",
 							className: "hover:underline",
-							children: "2025-07-04T15:54:48-06:00".split("T")[0],
+							children: "2025-07-04T16:17:22-06:00".split("T")[0],
 						}),
 					],
 				}),
@@ -11044,7 +11044,7 @@ const Op = "/assets/pondering-DREcjeAT.png";
 function Ip() {
 	return Q.jsx("div", {
 		className:
-			"hidden lg:flex bg-element-bg border-2 border-border rounded-global p-element m-element box-content basis-64 shadow-test",
+			"hidden lg:flex bg-element-bg border-2 border-border rounded-global p-element m-element box-content basis-64 shadow-test animate-in-right",
 		children: Q.jsx("img", {
 			src: Op,
 			alt: "Source: transhumans.xyz",
@@ -11055,7 +11055,7 @@ function Ip() {
 function Mp() {
 	return Q.jsx("div", {
 		className:
-			"bg-element-bg border-2 border-border rounded-global shadow-test h-min p-6 m-element",
+			"bg-element-bg border-2 border-border rounded-global shadow-test h-min p-6 m-element animate-in-left",
 		children: Q.jsxs("div", {
 			className: "flex h-min",
 			children: [
@@ -11091,7 +11091,7 @@ function Mp() {
 function Dp() {
 	return Q.jsxs("div", {
 		className:
-			"bg-element-bg border-2 border-border rounded-global p-6 m-element shadow-test h-full",
+			"bg-element-bg border-2 border-border rounded-global p-6 m-element shadow-test h-full animate-in-left",
 		children: [
 			Q.jsx("div", {
 				className:

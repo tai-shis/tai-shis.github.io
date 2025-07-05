@@ -1,6 +1,6 @@
 function Me() {
 	return (
-		<div className='bg-element-bg border-2 border-border rounded-global shadow-test h-min p-6 m-element'>
+		<div className='bg-element-bg border-2 border-border rounded-global shadow-test h-min p-6 m-element animate-in-left'>
 			<div className='flex h-min'>
 				<div>
 					<p className='text-default-text font-global text-3xl font-bold'>

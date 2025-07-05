@@ -18,4 +18,49 @@
     --font-global: 'Courier New', monospace;
 
     --shadow-test: -6px 6px 0 0 #19535f;
+
+    --animate-in-left: in-left 0.75s ease-in-out;
+    --animate-in-right: in-right 0.75s ease-in-out;
+    --animate-in-up: in-up 0.75s ease-in-out;
+    --animate-in-down: in-down 0.75s ease-in-out;
+
+    @keyframes in-left {
+        from {
+            opacity: 0;
+            transform: translatex(2em)
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes in-right {
+        from {
+            opacity: 0;
+            transform: translatex(-2em)
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes in-up {
+        from {
+            opacity: 0;
+            transform: translatey(2em)
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes in-down {
+        from {
+            opacity: 0;
+            transform: translatey(-2em)
+        }
+        to {
+            opacity: 1;
+        }
+    }
 }
