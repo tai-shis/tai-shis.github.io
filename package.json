@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d dist -u \"github-actions[bot] <github-actions[bot]@users.noreply.github.com>\" --repo=https://x-access-token:${GITHUB_TOKEN}@github.com/tai-shis/tai-shis.github.io.git",
+    "deploy": "gh-pages -d dist -u \"GitHub Actions <actions@github.com>\" --repo=https://x-access-token:${GITHUB_TOKEN}@github.com/tai-shis/tai-shis.github.io.git",
     "prepare": "husky install",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --write .",
