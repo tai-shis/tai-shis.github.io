@@ -1,4 +1,4 @@
-import image from "../assets/pondering.png";
+import image from "../assets/pondering.svg";
 
 function Icon() {
 	return (
