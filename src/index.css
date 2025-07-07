@@ -18,6 +18,7 @@
     --font-global: 'Courier New', monospace;
 
     --shadow-test: -6px 6px 0 0 #19535f;
+    --shadow-img: -6px 6px 0 0 #0B7a75;
 
     --animate-in-left: in-left 0.75s ease-in-out;
     --animate-in-right: in-right 0.75s ease-in-out;

@@ -6,7 +6,7 @@ function Footer() {
 				<span className='text-default-subtext font-global text-l inline-block'>
 					© 2025 - Tai Shishiba
 				</span>
-				<span className='text-default-subtext font-global text-l float-right inline-block'>
+				<span className=' hidden text-default-subtext font-global text-l float-right sm:inline-block'>
 					Last Commit:{" "}
 					<a
 						href='https://github.com/tai-shis/tai-shis.github.io'

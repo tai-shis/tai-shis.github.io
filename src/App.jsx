@@ -5,6 +5,7 @@ import Footer from "./components/Footer.jsx";
 import Home from "./pages/Home.jsx";
 import Projects from "./pages/Projects.jsx";
 import Stuff from "./pages/Stuff.jsx";
+import Hobbies from "./pages/Hobbies.jsx";
 import NoPage from "./pages/NoPage.jsx";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 					<Route path='/' element={<Home />} />
 					<Route path='/projects' element={<Projects />} />
 					<Route path='/stuff' element={<Stuff />} />
+					<Route path='/hobbies' element={<Hobbies />} />
 					<Route path='/*' element={<NoPage />} />
 				</Routes>
 				<Footer />
