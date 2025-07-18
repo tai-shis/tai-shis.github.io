@@ -1,6 +1,6 @@
 function About() {
 	return (
-		<div className='bg-element-bg border-2 border-border rounded-global p-6 m-element shadow-test h-full animate-in-left'>
+		<div className='element-primary p-6 h-full animate-in-left'>
 			<div className='text-default-text font-global text-2xl font-bold pb-2'>
 				About Me
 			</div>

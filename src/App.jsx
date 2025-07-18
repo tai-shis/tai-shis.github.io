@@ -10,23 +10,19 @@ import NoPage from "./pages/NoPage.jsx";
 
 function App() {
 	return (
-		<div
-			className='bg-background min-h-screen transpl-side-border-md pr-side-border-md pt-top-border-md 
-                            lg:pl-side-border-full lg:pr-side-border-full lg:pt-top-border-full '
-		>
-			<Router basename={import.meta.env.BASE_URL}>
-				<Header />
-				<Routes>
-					<Route path='/' element={<Home />} />
-					<Route path='/projects' element={<Projects />} />
-					<Route path='/stuff' element={<Stuff />} />
-					<Route path='/hobbies' element={<Hobbies />} />
-					<Route path='/*' element={<NoPage />} />
-				</Routes>
-				<Footer />
-			</Router>
-		</div>
+		<Router basename={import.meta.env.BASE_URL}>
+			<div className='site'>
+				<div className='lg:max-w-side-full mx-auto'>
+					<Header />
+					<Routes>
+						<Route path='/' element={<Home />} />
+						<Route path='/hobbies' element={<Hobbies />} />
+						<Route path='/*' element={<NoPage />} />
+					</Routes>
+					<Footer />
+				</div>
+			</div>
+		</Router>
 	);
 }
-
 export default App;
