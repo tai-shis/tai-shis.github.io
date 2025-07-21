@@ -7,6 +7,7 @@ import Projects from "./pages/Projects.jsx";
 import Stuff from "./pages/Stuff.jsx";
 import Hobbies from "./pages/Hobbies.jsx";
 import NoPage from "./pages/NoPage.jsx";
+import Keyboards from "./pages/Keyboards.jsx";
 
 function App() {
 	return (
@@ -17,6 +18,10 @@ function App() {
 					<Routes>
 						<Route path='/' element={<Home />} />
 						<Route path='/hobbies' element={<Hobbies />} />
+						<Route
+							path='/hobbies/keyboards'
+							element={<Keyboards />}
+						/>
 						<Route path='/*' element={<NoPage />} />
 					</Routes>
 					<Footer />

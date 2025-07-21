@@ -2,7 +2,7 @@ import yellow from "../assets/yellow.jpg";
 
 function Yellow() {
 	return (
-		<div className='bg-element-bg border-border border-2 rounded-global shadow-test m-element p-element w-1/3 h-min block'>
+		<div className='bg-element-bg border-border border-2 rounded-global shadow-test m-element p-element w-1/3 h-min'>
 			<img
 				src={yellow}
 				alt='Yellow'

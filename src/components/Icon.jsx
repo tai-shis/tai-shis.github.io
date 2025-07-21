@@ -2,7 +2,7 @@ import image from "../assets/Pondering.svg";
 
 function Icon() {
 	return (
-		<div className='hidden full:flex element-primary p-element box-content'>
+		<div className='hidden lg:flex element-primary p-element box-content'>
 			<img
 				src={image}
 				alt='Source: transhumans.xyz'

@@ -7,7 +7,7 @@ function Ad() {
 	const [dgHover, setdgHover] = useState(false);
 
 	return (
-		<div className='element-primary p-element w-full'>
+		<div className='element-primary p-element w-2/3'>
 			<img
 				src={dgHover ? dreamingGirlBack : dreamingGirl}
 				alt='Dreaming Girl'

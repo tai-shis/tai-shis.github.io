@@ -6,10 +6,9 @@ function Ad() {
 			<img
 				src={analogDreams}
 				alt='Analog Dreams'
-				className=' object-cover w-1/3 h-96 border-2 border-element-bg rounded-global bg-element-bg transition duration-150 ease-in-out ms-2
-                            hover:shadow-test hover:border-background hover:translate-x-1.5 hover:-translate-y-1.5 text-center hover:w-2/3'
+				className='object-cover w-2/3 h-96 border-2 border-element-bg rounded-global bg-element-bg '
 			/>
-			<div className='text-default-subtext w-2/3 font-global ps-6'>
+			<div className={"w-1/3 font-global p-6 text-default-subtext"}>
 				<a
 					className='font-bold text-xl'
 					href='https://zoom65.com/'
@@ -30,7 +29,7 @@ function Ad() {
 					GMK Analog Dreams 2
 				</a>
 				<p className='text-l'>
-					Base Kit | GB: 2021/06/04 - 2021/06/24 | by pwade3
+					GB: 2021/06/04 - 2021/06/24 | Base Kit | by pwade3
 				</p>
 				<br />
 				<a
@@ -42,15 +41,6 @@ function Ad() {
 				</a>
 				<p className='text-l'>
 					Hand-Lubed | 65g Springs | Tactile | by Gazzew
-				</p>
-				<br />
-				<p className='font-bold text-xl'>Notes:</p>
-				<p classname='text-l'>
-					This was my daily driver for quite some time and, especially
-					on the left hand side, you can see the classic
-					<i> GMK Shine</i>&trade; on the keycaps. The vaporwave
-					aesthetic make it probably one of my favourite boards
-					visually.
 				</p>
 			</div>
 		</div>
