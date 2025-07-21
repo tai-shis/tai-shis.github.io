@@ -1,3 +1,4 @@
+import { React } from "react";
 import Icon from "../components/Icon.jsx";
 import Me from "../components/Me.jsx";
 import About from "../components/About.jsx";
