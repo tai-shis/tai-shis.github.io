@@ -1,5 +1,6 @@
-# Add READme here
----
+# No Longer Maintained
+## new site repo -> tai-shis
+
 ## dev setup
 
 The project is (trying) to use a [Nix](https://nixos.org) development environment setup
